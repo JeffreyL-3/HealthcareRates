@@ -1,0 +1,17 @@
+[project]
+name = "healthcare-rates"
+version = "0.1.0"
+description = "A beginner-friendly Python data science workspace"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "jupyterlab>=4.4",
+    "matplotlib>=3.10",
+    "numpy>=2.2",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "seaborn>=0.13",
+]
+
+[tool.uv]
+package = false

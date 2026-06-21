@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated analysis outputs
+artifacts/*
+!artifacts/.gitkeep
+
+# Raw/local data (large files should not be committed)
+data/*
+!data/.gitkeep
+
+# R history and data
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editors and operating systems
+.DS_Store
+.idea/
